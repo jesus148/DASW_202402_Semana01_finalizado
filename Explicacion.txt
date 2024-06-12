@@ -1,0 +1,79 @@
+
+
+
+1. Ejercisio1 > explicacion 
+    usa la bd bd_ejercisio04
+
+
+
+
+
+2. en el pom.xml > ponemos la dependencia 
+  https://mvnrepository.com/artifact/mysql/mysql-connector-java/8.0.33 (url )
+  
+
+  > agregar esto
+  <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.33</version>
+</dependency>
+    
+
+    ojo : al guarda esto aparece un mensaje ---> was modfified ..do you want java
+       solo dar ---> yes
+
+
+
+
+
+-------------------------EJERCISIO 1
+2.1 . Ejercisio1 > explicacion 
+    usa la bd bd_ejercisio04 > tabla ejercisio
+
+
+
+ 3.  src>main>java > cibertec (seleciona cibertec) y crea un folder
+     > util (folder) > crea una clase 
+      > MyConnection crea una clase       
+
+
+
+
+
+ 4.   src>main>java > cibertec (seleciona cibertec) y crea un folder
+    > bd (folder) > dentro se crea 3 files o clases
+      Client 
+      Imagen 
+      Servers
+
+
+
+
+
+
+
+
+
+
+-------------------------EJERCISIO 2
+
+
+
+> EN EL POM PONER ESTO
+<!-- PARA USAR JSON  -->
+<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+<dependency>
+    <groupId>com.google.code.gson</groupId>
+    <artifactId>gson</artifactId>
+    <version>2.11.0</version>
+</dependency>
+
+
+
+
+
+ 1.  src>main>java > cibertec (seleciona cibertec) y crea un folder
+     > json (folder) > crea una clase ahi
+       > creamos clase java >  Create.Json.java
